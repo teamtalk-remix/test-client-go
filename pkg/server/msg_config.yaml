@@ -1,0 +1,38 @@
+---
+IpAddr1: localhost
+IpAddr2: localhost
+MaxConnCnt: 100000
+aesKey: 12345678901234567890123456789012
+connect:
+  -
+    ip: "127.0.0.1"
+    name: DBServer
+    port: 10600
+    type: ipv4
+  -
+    ip: "127.0.0.1"
+    name: LoginServer
+    port: 8100
+    type: ipv4
+  -
+    ip: "127.0.0.1"
+    name: RouteServer
+    port: 8200
+    type: ipv4
+  -
+    ip: "127.0.0.1"
+    name: PushServer
+    port: 8500
+    type: ipv4
+  -
+    ip: "127.0.0.1"
+    name: FileServer
+    port: 8600
+    type: ipv4
+listen:
+  -
+    ip: "0.0.0.0"
+    name: client
+    port: 8000
+    type: ipv4
+server_name: MessageServer

@@ -1,0 +1,14 @@
+syntax = "proto2";
+package IM.SwitchService;
+option optimize_for = LITE_RUNTIME;
+
+//service id: 0x0006
+
+message IMP2PCmdMsg{
+	//cmd id:		0x0601
+	required uint32 from_user_id = 1;
+	required uint32 to_user_id = 2;
+	required string cmd_msg_data = 3;
+}
+
+

@@ -1,0 +1,68 @@
+package help
+
+import "fmt"
+
+func PrintHelp() {
+	fmt.Print("Usage:\n")
+	fmt.Print("  login user_name user_password\n")
+	fmt.Print("  sendmsg from_id to_id msg_content\n")
+
+	//fmt.Print("  shop_member\n")
+	//fmt.Print("  recent_contact\n")
+	//fmt.Print("  recent_contact_ext\n")
+	//fmt.Print("  contact_app_req_ver717\n")
+	//fmt.Print("  service_req shop_id service_type\n")
+	//fmt.Print("  last_service_id shop_id\n")
+	//fmt.Print("  users_status user_id1 user_id2 ...\n")
+	//fmt.Print("  set_status status(1-online, 3-leave")
+	//fmt.Print("  users_info user_id1 user_id2 ...\n")
+	//fmt.Print("  users_info_ext user_id1 user_id2 ...\n")
+	//fmt.Print("  users_info_new user_id1 user_id2 ...\n")
+	//fmt.Print("  users_info_717 user_id1 user_id2 ...\n")
+	//fmt.Print("  remove_contact target_id target_type(0-custom/1-shop)\n")
+	//fmt.Print("  contact_4_app cmd_id(xd-23/mgj-25)\n")
+	//fmt.Print("  forbidden_list\n")
+	//fmt.Print("  modify_forbidden target_id target_type(0-custom/1-shop) op_type(0-add/1-delete)\n")
+	//fmt.Print("  shop_user_id_map cmd_id(31-(user->shop), 33-(shop->user)) id1 id2...\n")
+	//fmt.Print("  users_intro user_id1 user_id2 ...\n")
+	//fmt.Print("  msg_read_ack from_id\n")
+	//fmt.Print("  time_req\n")
+	//fmt.Print("  unread_msg_cnt\n")
+	//fmt.Print("  unread_msg from_id\n")
+	//fmt.Print("  history_msg from_id offset count\n")
+	//fmt.Print("  shop_history_msg display_id shop_id offset count\n")
+	//fmt.Print("  shop_msg_ack shop_id\n")
+	//fmt.Print("  send_p2p_msg to_id msg_content\n")
+	//fmt.Print("  batch_unread_info id1 id2...\n")
+	//
+	//fmt.Print("  group_info group_id\n")
+	//fmt.Print("  group_list_info group_id1 group_id2...\n")
+	//fmt.Print("  group_unread_cnt\n")
+	//fmt.Print("  group_unread_msg group_id\n")
+	//fmt.Print("  group_history_msg group_id msg_offset msg_count\n")
+	//fmt.Print("  send_group_msg group_id msg_content\n")
+	//fmt.Print("  group_msg_read_ack group_id\n")
+	//fmt.Print("  create_group group_name group_desc\n")
+	//fmt.Print("  join_group group_id sponsor_id user_id1 user_id2...(指定sponsor_id支持被邀请(群主ID)和自己申请(0))\n")
+	//fmt.Print("  join_group_int group_id sponsor_id user_id1 user_id2...(同上，传参用int类型ID)\n")
+	//fmt.Print("  quit_group group_id user_id1 user_id2...\n")
+	//fmt.Print("  modify_group group_id group_name group_desc\n")
+	//fmt.Print("  allow_group_push group_id operation_type(0-allow/1-disallow)\n")
+	//fmt.Print("  group_simple_info group_id1 group_id2 ...\n")
+	//fmt.Print("  group_unread_info group_id1 group_id2 ...\n")
+	//
+
+	////begin: d by @wuhui 2015.06.16 for group msg test
+	//fmt.Print("  group_applicant_list_info group_id_url\n")
+	//fmt.Print("  group_list_goods_info group_id_url\n")
+	//fmt.Print("  group_apply_list_oper group_id_url oper_type user_cnt userid_1 userid_2...\n")
+	//fmt.Print("  del_group group_id_url\n")
+	//fmt.Print("  add_group_goods group_id_url add_goods_num add_goods_times\n")
+	////end: ady @wuhui 2015.06.16 for group msg test
+	//fmt.Print("  group_admins oper_type group_id userid_cnt user_id\n")
+	//fmt.Print("  client_upload_data\n")
+	//fmt.Print("  cinfo_cnt\n")
+	//fmt.Print("  get_user_avatar\n")
+	//fmt.Print("  close\n")
+	//fmt.Print("  quit\n")
+}
