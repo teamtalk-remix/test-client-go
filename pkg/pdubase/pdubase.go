@@ -7,7 +7,7 @@ import (
 	"log"
 
 	"github.com/golang/protobuf/proto"
-	base "github.com/teamtalk-remix/ttr-client-incubator/test-client-go/proto/IM_BaseDefine"
+	base "github.com/teamtalk-remix/test-client-go/proto/IM_BaseDefine"
 )
 
 const PduHeaderSize = 16

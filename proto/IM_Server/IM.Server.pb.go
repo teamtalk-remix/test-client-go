@@ -6,7 +6,7 @@ package IM_Server
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	IM_BaseDefine "github.com/teamtalk-remix/ttr-client-incubator/test-client-go/proto/IM_BaseDefine"
+	IM_BaseDefine "github.com/teamtalk-remix/test-client-go/proto/IM_BaseDefine"
 	math "math"
 )
 
