@@ -1,5 +1,2 @@
-# GoTalk
-GoTalk is a re-implement of TeamTalk(https://github.com/meili/TeamTalk) server side
+# TeamTalk test client go
 
-# Architecture View
-![](teamtalk.jpg)
