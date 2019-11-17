@@ -1,5 +1,6 @@
 syntax = "proto2";
-option go_package = "github.com/teamtalk-remix/ttr-client-incubator/test-client-go/proto/IM_BaseDefine";
+//option go_package = "github.com/teamtalk-remix/test-client-go/proto/IM_BaseDefine";
+option go_package = "github.com/teamtalk-remix/test-client-go/proto/IM_BaseDefine";
 package IM.BaseDefine;
 option optimize_for = LITE_RUNTIME;
 

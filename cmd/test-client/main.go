@@ -18,13 +18,13 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/gogo/protobuf/proto"
-	"github.com/teamtalk-remix/ttr-client-incubator/test-client-go/cmd/test-client/help"
-	"github.com/teamtalk-remix/ttr-client-incubator/test-client-go/cmd/test-client/utils"
-	"github.com/teamtalk-remix/ttr-client-incubator/test-client-go/pkg/pdubase"
-	b "github.com/teamtalk-remix/ttr-client-incubator/test-client-go/proto/IM_BaseDefine"
-	"github.com/teamtalk-remix/ttr-client-incubator/test-client-go/proto/IM_Login"
-	"github.com/teamtalk-remix/ttr-client-incubator/test-client-go/proto/IM_Message"
-	"github.com/teamtalk-remix/ttr-client-incubator/test-client-go/proto/IM_Other"
+	"github.com/teamtalk-remix/test-client-go/cmd/test-client/help"
+	"github.com/teamtalk-remix/test-client-go/cmd/test-client/utils"
+	"github.com/teamtalk-remix/test-client-go/pkg/pdubase"
+	b "github.com/teamtalk-remix/test-client-go/proto/IM_BaseDefine"
+	"github.com/teamtalk-remix/test-client-go/proto/IM_Login"
+	"github.com/teamtalk-remix/test-client-go/proto/IM_Message"
+	"github.com/teamtalk-remix/test-client-go/proto/IM_Other"
 )
 
 var (

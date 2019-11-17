@@ -1,9 +1,13 @@
 #!/bin/sh
 
-DST_DIR="$(go env GOPATH)/src/github.com/teamtalk-remix/ttr-client-incubator/test-client-go/proto"
+DST_DIR="../"
+SRC_DIR="."
+
 
 #for golang, it's a little manual work, see https://github.com/golang/protobuf/issues/39
 protoc -I=. --go_out=$DST_DIR/IM_BaseDefine $SRC_DIR/IM.BaseDefine.proto
+
+
 protoc -I=. --go_out=$DST_DIR/IM_File $SRC_DIR/IM.File.proto
 protoc -I=. --go_out=$DST_DIR/IM_Login $SRC_DIR/IM.Login.proto
 protoc -I=. --go_out=$DST_DIR/IM_Other $SRC_DIR/IM.Other.proto
